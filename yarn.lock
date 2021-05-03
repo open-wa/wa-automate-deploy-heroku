@@ -55,9 +55,9 @@
     fastq "^1.6.0"
 
 "@open-wa/wa-automate@latest":
-  version "3.11.6"
-  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-3.11.6.tgz#dc6951c55e243297ffccbc3880a8d2f2e8ca7597"
-  integrity sha512-YClBTIn4LOdSpioAmldUogRq5G7i2moLnu3YLe+8e3elFobOMtKofBSVYubY6KstIWfzTiDeqZ5QRg2vNTEW2A==
+  version "3.11.8"
+  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-3.11.8.tgz#758412eaad6bdb7d024c6420828c3f5096a2b093"
+  integrity sha512-fH3jCCm1hxVxB093sPuPEUt6djUIivaJ5mzJeyvo9I2DSU6SLEC/2aTVp9U1AVAnfpSZEgPEVdODN2+64tlHrg==
   dependencies:
     "@discordjs/collection" "^0.1.6"
     "@open-wa/wa-decrypt" "^3.1.0"
@@ -73,9 +73,11 @@
     cross-spawn "^7.0.3"
     datauri "^3.0.0"
     death "^1.1.0"
+    ensure-gitignore "^1.1.2"
     eventemitter2 "^6.0.0"
     express "^4.17.1"
     express-robots-txt "^0.5.0"
+    find-up "^4.1.0"
     get-port "^5.1.1"
     hasha "^5.2.0"
     image-type "^4.1.0"
@@ -99,7 +101,7 @@
     puppeteer-extra-plugin-stealth "^2.4.9"
     puppeteer-page-proxy "^1.2.8"
     qrcode-terminal "^0.12.0"
-    rxjs "^6.5.3"
+    rxjs "^7.0.0"
     socket.io "^4.0.1"
     spinnies "^0.5.1"
     swagger-stats "^0.99.1"
@@ -1262,6 +1264,11 @@ engine.io@~5.0.0:
     debug "~4.3.1"
     engine.io-parser "~4.0.0"
     ws "~7.4.2"
+
+ensure-gitignore@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ensure-gitignore/-/ensure-gitignore-1.1.2.tgz#0a3d169491f653be62ef595a841cac2eacbb2e55"
+  integrity sha512-+6bhiCx705G6BD2gSlP3mxW5wuQVm4ebbeiRUGyrB2nf/L9eK9WkLtP/aC4CSOrMutyfCi9xZ4GLpamICdvFUw==
 
 entities@^1.1.1:
   version "1.1.2"
@@ -3856,12 +3863,12 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@^6.5.3:
-  version "6.6.6"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.6.tgz#14d8417aa5a07c5e633995b525e1e3c0dec03b70"
-  integrity sha512-/oTwee4N4iWzAMAL9xdGKjkEHmIwupR3oXbQjCKywF1BeFohswF3vZdogbmEF6pZkOsXTzWkrZszrWpQTByYVg==
+rxjs@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.0.0.tgz#c55d67c52aee8804d32ab60965e335bd41e2dc2d"
+  integrity sha512-I1V/ArAtGJg4kmCfms8fULm0SwYgEsAf2d5WPCBGzTYm2qTjO3Tx4EDFaGjbOox8CeEsC69jQK22mnmfyA26sw==
   dependencies:
-    tslib "^1.9.0"
+    tslib "~2.1.0"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -4526,12 +4533,7 @@ ts-morph@^10.0.2:
     "@ts-morph/common" "~0.9.0"
     code-block-writer "^10.1.1"
 
-tslib@^1.9.0:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
-  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-
-tslib@^2.0.3:
+tslib@^2.0.3, tslib@~2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
