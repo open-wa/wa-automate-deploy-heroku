@@ -54,10 +54,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@open-wa/wa-automate@^4.17.2":
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.17.2.tgz#12988188fd7fd3bb0b64df031dcc22bbde52aa5f"
-  integrity sha512-P8QIg+y6WZexO0IhynTHiQ3hroomK5qAKdEdPiRBPOI50uhCnYl6S1Knw5bpOiDPbIysslBzEwjm9LHfIUWPeA==
+"@open-wa/wa-automate@*":
+  version "4.20.2"
+  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.20.2.tgz#6427c3d7254da203cc97d10ca24e2c5817cf8b09"
+  integrity sha512-Sh/q7exSso58MwA/SovoTFrGflUuKSpNzzBJwbr0uzCNEVwA1MqtfE9lYIHxg2KSEqmTEtNnaPuOPo8LzFgTpQ==
   dependencies:
     "@discordjs/collection" "^0.2.0"
     "@open-wa/wa-decrypt" "^4.2.0"
@@ -77,7 +77,7 @@
     ensure-gitignore "^1.1.2"
     eventemitter2 "^6.0.0"
     express "^4.17.1"
-    express-robots-txt "^0.5.0"
+    express-robots-txt "^1.0.0"
     find-up "^5.0.0"
     fs-extra "^10.0.0"
     get-port "^5.1.1"
@@ -1276,10 +1276,10 @@ execa@^4.0.2:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-express-robots-txt@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/express-robots-txt/-/express-robots-txt-0.5.0.tgz#fba93a96777d817d12cca0be4264ae1a4708bfc4"
-  integrity sha512-ISyI++3Yy1lZ982/gQK3RVbghxe2R+/+VDQ8EWrmAmNncyD4VITJR9jYiSbvfxRSVqcGjKWndKkYbgY6fVFdOA==
+express-robots-txt@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/express-robots-txt/-/express-robots-txt-1.0.0.tgz#354dde6f241c3d4ed39f74cfd0604dd92daea497"
+  integrity sha512-ZzXTJgvHY6N8MIPzWidIrOGngkNJ8nrSP9Ox0nztVkQxvpwcX8egJvhM6tBUojf9xDmnSc7J5RlWQJJK91N3aA==
 
 express@^4.17.1:
   version "4.17.1"
