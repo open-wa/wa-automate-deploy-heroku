@@ -89,9 +89,9 @@
   integrity sha512-Q3rajuFW9WQpZgwoPfibWbrq3cydciG0t4SFsEo3k3BA/MaqMgiXdr7ZmTWFPmOi2R1OeIJDCAESc6ocWF9/RA==
 
 "@open-wa/wa-automate@*":
-  version "4.22.4"
-  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.22.4.tgz#3cf1eb1fcf9e12f0f9aa289238a464f503b58db1"
-  integrity sha512-v0OEpfKZZFA6P8kML80kpGicAjdtDEsxJLMHGNe5WDVa2EWd/KpTjvwQtogQu5P1FMZxYefNqQZ69d+NfnKYHw==
+  version "4.23.0"
+  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.23.0.tgz#99f01da6e34884bbbc74abb9ef2608315d17b7c4"
+  integrity sha512-A/m9KwSSKYmUkc8Oh3VD+7xhgKYKNVbqeIkiV+6j7LJMdLFPcE5bRkTV2qP2+qlloG9zwFXz50deCuqmajK/Eg==
   dependencies:
     "@discordjs/collection" "^0.2.0"
     "@open-wa/wa-decrypt" "^4.3.1"
@@ -131,7 +131,7 @@
     pico-s3 "^1.0.1"
     pino "^6.11.1"
     postman-2-swagger "^0.5.0"
-    puppeteer "10.2.0"
+    puppeteer "10.4.0"
     puppeteer-extra "^3.1.9"
     puppeteer-extra-plugin-block-resources "^2.2.7"
     puppeteer-extra-plugin-devtools "^2.2.8"
@@ -3360,10 +3360,10 @@ puppeteer-page-proxy@^1.2.8:
     socks-proxy-agent "^5.0.0"
     tough-cookie "^4.0.0"
 
-puppeteer@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-10.2.0.tgz#7d8d7fda91e19a7cfd56986e0275448e6351849e"
-  integrity sha512-OR2CCHRashF+f30+LBOtAjK6sNtz2HEyTr5FqAvhf8lR/qB3uBRoIZOwQKgwoyZnMBsxX7ZdazlyBgGjpnkiMw==
+puppeteer@10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-10.4.0.tgz#a6465ff97fda0576c4ac29601406f67e6fea3dc7"
+  integrity sha512-2cP8mBoqnu5gzAVpbZ0fRaobBWZM8GEUF4I1F6WbgHrKV/rz7SX8PG2wMymZgD0wo0UBlg2FBPNxlF/xlqW6+w==
   dependencies:
     debug "4.3.1"
     devtools-protocol "0.0.901419"
