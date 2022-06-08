@@ -103,9 +103,9 @@
   integrity sha512-Q3rajuFW9WQpZgwoPfibWbrq3cydciG0t4SFsEo3k3BA/MaqMgiXdr7ZmTWFPmOi2R1OeIJDCAESc6ocWF9/RA==
 
 "@open-wa/wa-automate@*":
-  version "4.37.5"
-  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.37.5.tgz#2221eda461ca3448b4bdf63742a3055673aa447b"
-  integrity sha512-y0e6N9JenaKF8ykiMH+pj2hfdgkmEzCkEhGAJPjysrDYM90h4RyUfsmAYZSiPmDXMROEIeiQunWcJYBrW461vA==
+  version "4.38.1"
+  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.38.1.tgz#8c6303ecaa38f28831febc17ddfb603a88d474cb"
+  integrity sha512-IuwCmZYMXHN/hNCupo8Jyp9Pu4g6nmsW0HHH2Tuxrs8xYVmlj5SeBX1CLWTMgWJLM6rKf8FYlaMiFZY3vX9tMw==
   dependencies:
     "@discordjs/collection" "^0.5.0"
     "@open-wa/wa-decrypt" "^4.3.1"
