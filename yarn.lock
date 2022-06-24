@@ -103,9 +103,9 @@
   integrity sha512-Q3rajuFW9WQpZgwoPfibWbrq3cydciG0t4SFsEo3k3BA/MaqMgiXdr7ZmTWFPmOi2R1OeIJDCAESc6ocWF9/RA==
 
 "@open-wa/wa-automate@*":
-  version "4.37.5"
-  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.37.5.tgz#2221eda461ca3448b4bdf63742a3055673aa447b"
-  integrity sha512-y0e6N9JenaKF8ykiMH+pj2hfdgkmEzCkEhGAJPjysrDYM90h4RyUfsmAYZSiPmDXMROEIeiQunWcJYBrW461vA==
+  version "4.42.1"
+  resolved "https://registry.yarnpkg.com/@open-wa/wa-automate/-/wa-automate-4.42.1.tgz#27e9cdeef0c3989a7e338da91625943cd64a615e"
+  integrity sha512-Od4N99ZcjlailwQTwUZH3P01bT2n46yj6fKkyqLKrWlETs6UhZPo245n09gmJukNn6hNhVAlxoXqAcNeyMkzxw==
   dependencies:
     "@discordjs/collection" "^0.5.0"
     "@open-wa/wa-decrypt" "^4.3.1"
@@ -146,12 +146,14 @@
     parse-url "^5.0.2"
     patch-package "^6.2.2"
     pico-s3 "^1.0.1"
+    pidtree "^0.6.0"
+    pidusage "^3.0.0"
     postman-2-swagger "^0.5.0"
-    puppeteer "^13.5.1"
+    puppeteer "15.0.0"
     puppeteer-extra "^3.2.3"
-    puppeteer-extra-plugin-block-resources "^2.3.0"
-    puppeteer-extra-plugin-devtools "^2.3.3"
-    puppeteer-extra-plugin-stealth "^2.9.0"
+    puppeteer-extra-plugin-block-resources "^2.4.0"
+    puppeteer-extra-plugin-devtools "^2.4.0"
+    puppeteer-extra-plugin-stealth "^2.10.1"
     puppeteer-page-proxy "^1.2.8"
     qrcode-terminal "^0.12.0"
     qs "^6.10.1"
@@ -1177,10 +1179,10 @@ destroy@~1.0.4:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
-devtools-protocol@0.0.981744:
-  version "0.0.981744"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.981744.tgz#9960da0370284577d46c28979a0b32651022bacf"
-  integrity sha512-0cuGS8+jhR67Fy7qG3i3Pc7Aw494sb9yG9QgpG97SFVWwolgYjlhJg7n+UaHxOQT30d1TYu/EYe9k01ivLErIg==
+devtools-protocol@0.0.1001819:
+  version "0.0.1001819"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1001819.tgz#0a98f44cefdb02cc684f3d5e6bd898a1690231d9"
+  integrity sha512-G6OsIFnv/rDyxSqBa2lDLR6thp9oJioLsb2Gl+LbQlyoA9/OBAkrTU9jiCcQ8Pnh7z4d6slDiLaogR5hzgJLmQ==
 
 dom-serializer@0:
   version "0.2.2"
@@ -2053,7 +2055,15 @@ http2-wrapper@^1.0.0-beta.5.2:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
 
-https-proxy-agent@5.0.0, https-proxy-agent@^5.0.0:
+https-proxy-agent@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
+  integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
+  dependencies:
+    agent-base "6"
+    debug "4"
+
+https-proxy-agent@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
   integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
@@ -3315,6 +3325,18 @@ picomatch@^2.2.3:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
 
+pidtree@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/pidtree/-/pidtree-0.6.0.tgz#90ad7b6d42d5841e69e0a2419ef38f8883aa057c"
+  integrity sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==
+
+pidusage@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pidusage/-/pidusage-3.0.0.tgz#69108079724c9afdd958644b920bc40bac964044"
+  integrity sha512-8VJLToXhj+RYZGNVw8oxc7dS54iCQXUJ+MDFHezQ/fwF5B8W4OWodAMboc1wb08S/4LiHwAmkT4ohf/d3YPPsw==
+  dependencies:
+    safe-buffer "^5.2.1"
+
 pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
@@ -3435,18 +3457,18 @@ pupa@^2.1.1:
   dependencies:
     escape-goat "^2.0.0"
 
-puppeteer-extra-plugin-block-resources@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-block-resources/-/puppeteer-extra-plugin-block-resources-2.3.0.tgz#51f3013afc84e537d385da68a9f2abbd94532e75"
-  integrity sha512-zaTtZr3sSvsSU3Po9s1pUhhXqFTakTaz/wvkrUjXv/pzh1CjtMUmJTJGjlGlhII5jnb2ll6lTaK0EH+GF5JgOw==
+puppeteer-extra-plugin-block-resources@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-block-resources/-/puppeteer-extra-plugin-block-resources-2.4.0.tgz#3fce2a8735bc0a783062e0f535be2e8c1a3e0c98"
+  integrity sha512-5qdvVRPUE279iVkmG70GnqyXlaL4J3Pk5NPyF3iJnQtDlKmp+WNbHa40uq2iu83CfChmsC7/duU4Jyfbjym54w==
   dependencies:
     debug "^4.1.1"
     puppeteer-extra-plugin "^3.2.0"
 
-puppeteer-extra-plugin-devtools@^2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-devtools/-/puppeteer-extra-plugin-devtools-2.3.3.tgz#1f6daa93eb4a9cfd6600c8695109aca2011d0c9c"
-  integrity sha512-xnRZfeCzxqP8gfIy6/lItllCc7Mo0wvm20Ty0Veh93g8ZvKJLAyzoqdBWS4yzTtyDPL0IRdAIngvlhyOlBSdWA==
+puppeteer-extra-plugin-devtools@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-devtools/-/puppeteer-extra-plugin-devtools-2.4.0.tgz#1287cf9585fe0ae1b1667b465fedd9c6f3329ae1"
+  integrity sha512-vhPDOGyf8hpr5reFnx+McyWLjstnh9lcXG9aXdspJD2gSIcF4gj+EkQBqdKpWOAZKmc1wPb3kcUb+QqmeFIorQ==
   dependencies:
     debug "^4.1.1"
     get-port "^3.2.0"
@@ -3460,10 +3482,10 @@ puppeteer-extra-plugin-devtools@^2.3.3:
     randomstring "^1.1.5"
     url-parse "^1.5.3"
 
-puppeteer-extra-plugin-stealth@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.9.0.tgz#aa39f4469bf47343af4517efe9f97846228b3b01"
-  integrity sha512-erZ9lkIcOkfYmLPP2jv2AiqvNBFhQJinWJhcm40pqSjwJTsZXHsTARUyRCsBYEEBvNIs3Wz3E0zVlTRc4IJ6Hg==
+puppeteer-extra-plugin-stealth@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.10.1.tgz#8815bb0e84292f936a1aeb027449d80628fee9ac"
+  integrity sha512-QbFPuzmP1DvG8DqFuJZmBaf3+iMQZUa/ffZCcdItF+T0ya2wdOgeVKhRLl1bLmw+Zag457UouYN/Thwh6vMmHg==
   dependencies:
     debug "^4.1.1"
     puppeteer-extra-plugin "^3.2.0"
@@ -3518,23 +3540,23 @@ puppeteer-page-proxy@^1.2.8:
     socks-proxy-agent "^5.0.0"
     tough-cookie "^4.0.0"
 
-puppeteer@^13.5.1:
-  version "13.6.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-13.6.0.tgz#3583fc60c1af59af838d65a09680f2d07f3608f9"
-  integrity sha512-EJXhTyY5bXNPLFXPGcY9JaF6EKJIX8ll8cGG3WUK+553Jx96oDf1cB+lkFOro9p0X16tY+9xx7zYWl+vnWgW2g==
+puppeteer@15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-15.0.0.tgz#0c4f373625baab14fdbfe7d41b4fad3ec9306fea"
+  integrity sha512-pMtswCW0/V4OkkzDmmb2FJKrUPh2uaB4pTVQEHT7833GfewVdKdbnSviVdfvRt3XhrsJkTmzh7FAUckW9Y5lZA==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.4"
-    devtools-protocol "0.0.981744"
+    devtools-protocol "0.0.1001819"
     extract-zip "2.0.1"
-    https-proxy-agent "5.0.0"
+    https-proxy-agent "5.0.1"
     pkg-dir "4.2.0"
     progress "2.0.3"
     proxy-from-env "1.1.0"
     rimraf "3.0.2"
     tar-fs "2.1.1"
     unbzip2-stream "1.4.3"
-    ws "8.5.0"
+    ws "8.7.0"
 
 qrcode-terminal@^0.12.0:
   version "0.12.0"
@@ -3819,7 +3841,7 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
+safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@^5.2.1, safe-buffer@~5.2.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
@@ -4790,10 +4812,10 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
-  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
+ws@8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.7.0.tgz#eaf9d874b433aa00c0e0d8752532444875db3957"
+  integrity sha512-c2gsP0PRwcLFzUiA8Mkr37/MI7ilIlHQxaEAtd0uNMbVMoy8puJyafRlm0bV9MbGSabUPeLrRRaqIBcFcA2Pqg==
 
 ws@~7.4.2:
   version "7.4.6"
